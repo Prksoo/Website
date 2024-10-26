@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('img/wall.jpg'); /* Ganti dengan path gambar yang diinginkan */
+    background-image: url('wall.jpg'); /* Ganti dengan path gambar yang diinginkan */
     background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
     background-position: center; /* Mengatur posisi gambar di tengah */
     height: 100vh; /* Mengatur tinggi 100% dari viewport */
