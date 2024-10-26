@@ -30,19 +30,19 @@ const displayWelcomeMessage = () => {
   if (hour >= 4 && hour < 12) {
     greeting = 'Selamat Pagi!';
     quote = 'Welcome to ChatBot OkoAi on official website, found a problem? Contact the owner via Gmail: prks.adiiw@gmail.com';
-    imageUrl = 'img/logo.jpg'; // Ganti dengan path gambar yang sesuai
+    imageUrl = 'logo.jpg'; // Ganti dengan path gambar yang sesuai
   } else if (hour >= 12 && hour < 17) {
     greeting = 'Selamat Siang!';
     quote = 'Welcome to ChatBot OkoAi on official website, found a problem? Contact the owner via Gmail: prks.adiiw@gmail.com';
-    imageUrl = 'img/logo.jpg'; // Ganti dengan path gambar yang sesuai
+    imageUrl = 'logo.jpg'; // Ganti dengan path gambar yang sesuai
   } else if (hour >= 17 && hour < 21) {
     greeting = 'Selamat Sore!';
     quote = 'Welcome to ChatBot OkoAi on official website, found a problem? Contact the owner via Gmail: prks.adiiw@gmail.com';
-    imageUrl = 'img/logo.jpg'; // Ganti dengan path gambar yang sesuai
+    imageUrl = 'logo.jpg'; // Ganti dengan path gambar yang sesuai
   } else {
     greeting = 'Selamat Malam!';
     quote = 'Welcome to ChatBot OkoAi on official website, found a problem? Contact the owner via Gmail: prks.adiiw@gmail.com';
-    imageUrl = 'img/logo.jpg'; // Ganti dengan path gambar yang sesuai
+    imageUrl = 'logo.jpg'; // Ganti dengan path gambar yang sesuai
   }
 
   // Tambahkan ucapan dan gambar ke div
